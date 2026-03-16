@@ -1,0 +1,12 @@
+def calculate_average(numbers):
+    # sum() adds all the numbers in the list
+    total = sum(numbers)
+    # len() gives the count of numbers in the list
+    count = len(numbers)
+    # average is total divided by count
+    average = total / count
+    return average
+
+# Example usage
+data = [10, 20, 30, 40, 50]
+print("The average is:", calculate_average(data))
